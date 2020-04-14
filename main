@@ -191,7 +191,11 @@ def stay_home(res, req):
                                              " исполнителей, которых вы любите, или знакомьтесь с новыми!",
                                              "5)Помогите окружающим! Многие в сложившейся ситуации нуждаются в помощи" +
                                              " и поддержке, если у вас есть возможность, совершите доброе дело!"])
-
+def inforussia(self, res, req):
+    user_id = req['session']['user_id']
+    cur = self.con.cursor()
+    result = cur.execute("""SELECT illpeople FROM infor WHERE territory == {0}""".format(req)).fetchone()
+    return result
 
 def get_first_name(req):
     # перебираем сущности
