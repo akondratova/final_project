@@ -208,6 +208,16 @@ def inforussia(self, res, req):
     res['response']['card']['title'] = 'Заражение в России'
     res['response']['card']['image_id'] = images['россия']
 
+def infocounties(self, res, req):
+    user_id = req['session']['user_id']
+    cur = self.con.cursor()
+    sp = cur.execute("""SELECT illpeople FROM world""").fetchall()
+    if req['request']['nlu']['tokens'] in sp:
+        result = cur.execute("""SELECT illpeople FROM world WHERE
+            territory == {0}""".format(req['request']['nlu']['tokens'])).fetchone()
+    else:
+        result = 'Я не расслышала. Попробуйте еще раз.'
+    res['response']['text'] = result
 
 def get_first_name(req):
     # перебираем сущности
