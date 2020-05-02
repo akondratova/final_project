@@ -15,8 +15,8 @@ sessionStorage = {}
 
 
 @app.route('/post', methods=['POST'])
-def main(self):
-    self.con = sqlite3.connect("infor.db")
+def main():
+    # self.con = sqlite3.connect("infor.db")
     logging.info('Request: %r', request.json)
     response = {
         'session': request.json['session'],
@@ -73,23 +73,42 @@ def handle_dialog(res, req):
     else:
         if not sessionStorage[user_id]['information']:
             # запрос не поступил, значит мы ожидаем запрос.
-            if 'Информация про субъект Российской Федерации' in req['request']['nlu']['tokens']:
+            if ('Информация про субъект Российской Федерации'  in req['request']['nlu']['tokens'] or
+                'информация про субъект Российской Федерации' in req['request']['nlu']['tokens'] or
+                "информация про город" in req['request']['nlu']['tokens'] or "Информация про город" in
+                req['request']['nlu']['tokens']):
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функцию
 
-            elif 'Информация про страну' in req['request']['nlu']['tokens']:
+            elif 'Информация про страну' in req['request']['nlu']['tokens'] or\
+                    'информация про страну' in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функцию
 
-            elif 'Симптомы' in req['request']['nlu']['tokens']:
+            elif 'Симптомы' in req['request']['nlu']['tokens'] or 'симптомы' in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
-                # вызываем необходимую функцию
+                symptomes(res, req)
 
-            elif 'Рекомендации' in req['request']['nlu']['tokens']:
+            elif 'Рекомендации' in req['request']['nlu']['tokens'] or 'рекомендации' in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
-                # вызываем необходимую функцию
+                recomendation(res, req)
 
-            elif 'Чем заняться в карантин?' in req['request']['nlu']['tokens']:
+            elif 'Чем заняться в карантин?' in req['request']['nlu']['tokens'] or\
+                    'чем заняться в карантин?' in req['request']['nlu']['tokens'] or\
+                    "чем заняться на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Чем заняться на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "чем заняться во время самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Чем заняться во время самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Чем заняться?" in req['request']['nlu']['tokens'] or\
+                    "Что делать?" in req['request']['nlu']['tokens'] or\
+                    "что делать?" in req['request']['nlu']['tokens'] or\
+                    'Что делать? в карантин?' in req['request']['nlu']['tokens'] or\
+                    'что делать? в карантин?' in req['request']['nlu']['tokens'] or\
+                    "чем заняться?" in req['request']['nlu']['tokens'] or\
+                    "что делать? на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Что делать? на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "что делать? во время самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Что делать? во время самоизоляции?" in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функцию
 
@@ -120,22 +139,41 @@ def handle_dialog(res, req):
                     }
                 ]
         else:
-            if 'Информация про субъект Российской Федерации' in req['request']['nlu']['tokens']:
+            if ('Информация про субъект Российской Федерации' in req['request']['nlu']['tokens'] or
+                'информация про субъект Российской Федерации' in req['request']['nlu']['tokens'] or
+                "информация про город" in req['request']['nlu']['tokens'] or
+                "Информация про город" in req['request']['nlu']['tokens']):
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функц
-            elif 'Информация про страну' in req['request']['nlu']['tokens']:
+            elif 'Информация про страну' in req['request']['nlu']['tokens'] or\
+                    'информация про страну' in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функцию
 
-            elif 'Симптомы' in req['request']['nlu']['tokens']:
+            elif 'Симптомы' in req['request']['nlu']['tokens'] or 'симптомы' in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функцию
                 symptomes(res, req)
-            elif 'Рекомендации' in req['request']['nlu']['tokens']:
+            elif 'Рекомендации' in req['request']['nlu']['tokens'] or 'рекомендации' in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функцию
                 recomendation(res, req)
-            elif 'Чем заняться в карантин?' in req['request']['nlu']['tokens']:
+            elif 'Чем заняться в карантин?' in req['request']['nlu']['tokens'] or\
+                    'чем заняться в карантин?' in req['request']['nlu']['tokens'] or\
+                    "чем заняться на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Чем заняться на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "чем заняться во время самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Чем заняться во время самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Чем заняться?" in req['request']['nlu']['tokens'] or\
+                    "Что делать?" in req['request']['nlu']['tokens'] or\
+                    "что делать?" in req['request']['nlu']['tokens'] or\
+                    'Что делать? в карантин?' in req['request']['nlu']['tokens'] or\
+                    'что делать? в карантин?' in req['request']['nlu']['tokens'] or\
+                    "чем заняться?" in req['request']['nlu']['tokens'] or\
+                    "что делать? на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Что делать? на самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "что делать? во время самоизоляции?" in req['request']['nlu']['tokens'] or\
+                    "Что делать? во время самоизоляции?" in req['request']['nlu']['tokens']:
                 sessionStorage[user_id]['information'] = True
                 # вызываем необходимую функцию
                 stay_home(res, req)
@@ -143,15 +181,38 @@ def handle_dialog(res, req):
 
 def symptomes(res, req):
     user_id = req['session']['user_id']
-    res['response']['text'] = "sep=\n".join(['Основными признаками наличия коронавируса у человека являются:',
-                                             '— слабость, усталость',
-                                             '— затрудненное дыхание',
-                                             '— высокая температура',
-                                             '— кашель (сухой или с небольшим количеством мокроты) и/или боль в горле',
+    res['response']['text'] = "".join(['Основными признаками наличия коронавируса у человека являются:' +
+                                             'слабость, усталость,',
+                                             ' затрудненное дыхание,',
+                                             ' высокая температура,',
+                                             ' кашель (сухой или с небольшим количеством мокроты) и/или боль в горле,',
                                              'По симптоматике коронавирус схож с простудой' +
                                              ' и респираторными заболеваниями.',
                                              'Особое внимание стоит обратить на одышку:' +
                                              ' при ее наличии немедленно обратитесь к врачу.'])
+    sessionStorage[user_id]['information'] = False
+    res['response']['buttons'] = [
+        {
+            'title': 'Информация про субъект Российской Федерации',
+            'hide': True
+        },
+        {
+            'title': 'Информация про страны мира',
+            'hide': True
+        },
+        {
+            'title': 'Симптомы',
+            'hide': True
+        },
+        {
+            'title': 'Рекомендации',
+            'hide': True
+        },
+        {
+            'title': "Чем заняться в карантин?",
+            'hide': True
+        }
+    ]
 
 
 def recomendation(res, req):
@@ -171,6 +232,30 @@ def recomendation(res, req):
                                              ' и респираторными заболеваниями.',
                                              'Следите за новейшей информацией и выполняйте рекомендации медицинских' +
                                              ' специалистов.'])
+    sessionStorage[user_id]['information'] = False
+    res['response']['buttons'] = [
+        {
+            'title': 'Информация про субъект Российской Федерации',
+            'hide': True
+        },
+        {
+            'title': 'Информация про страны мира',
+            'hide': True
+        },
+        {
+            'title': 'Симптомы',
+            'hide': True
+        },
+        {
+            'title': 'Рекомендации',
+            'hide': True
+        },
+        {
+            'title': "Чем заняться в карантин?",
+            'hide': True
+        }
+    ]
+
 
 def stay_home(res, req):
     user_id = req['session']['user_id']
@@ -191,22 +276,107 @@ def stay_home(res, req):
                                              " исполнителей, которых вы любите, или знакомьтесь с новыми!",
                                              "5)Помогите окружающим! Многие в сложившейся ситуации нуждаются в помощи" +
                                              " и поддержке, если у вас есть возможность, совершите доброе дело!"])
+    sessionStorage[user_id]['information'] = False
+    res['response']['buttons'] = [
+        {
+            'title': 'Информация про субъект Российской Федерации',
+            'hide': True
+        },
+        {
+            'title': 'Информация про страны мира',
+            'hide': True
+        },
+        {
+            'title': 'Симптомы',
+            'hide': True
+        },
+        {
+            'title': 'Рекомендации',
+            'hide': True
+        },
+        {
+            'title': "Чем заняться в карантин?",
+            'hide': True
+        }
+    ]
 
 
-def inforussia(self, res, req):
-    user_id = req['session']['user_id']
-    cur = self.con.cursor()
-    sp = cur.execute("""SELECT illpeople FROM russia""").fetchall()
-    if req['request']['nlu']['tokens'] in sp:
-        result = cur.execute("""SELECT illpeople FROM russia WHERE
-    territory == {0}""".format(req['request']['nlu']['tokens'])).fetchone()
-    else:
-        result = 'Я не расслышала. Попробуйте еще раз.'
-    res['response']['text'] = result
-    res['response']['card'] = {}
-    res['response']['card']['type'] = 'BigImage'
-    res['response']['card']['title'] = 'Заражение в России'
-    res['response']['card']['image_id'] = images['россия']
+# def inforussia(self, res, req):
+#     user_id = req['session']['user_id']
+#     cur = self.con.cursor()
+#     sp = cur.execute("""SELECT illpeople FROM russia""").fetchall()
+#     if req['request']['nlu']['tokens'] in sp:
+#         result = cur.execute("""SELECT illpeople FROM russia WHERE
+#     territory == {0}""".format(req['request']['nlu']['tokens'])).fetchone()
+#     else:
+#         result = 'Я не расслышала. Попробуйте еще раз.'
+#     res['response']['text'] = result
+#     res['response']['card'] = {}
+#     res['response']['card']['type'] = 'BigImage'
+#     res['response']['card']['title'] = 'Заражение в России'
+#     res['response']['card']['image_id'] = images['россия']
+#     sessionStorage[user_id]['information'] = False
+#       res['response']['buttons'] = [
+#                     {
+#                         'title': 'Информация про субъект Российской Федерации',
+#                         'hide': True
+#                     },
+#                     {
+#                         'title': 'Информация про страны мира',
+#                         'hide': True
+#                     },
+#                     {
+#                         'title': 'Симптомы',
+#                         'hide': True
+#                     },
+#                     {
+#                         'title': 'Рекомендации',
+#                         'hide': True
+#                     },
+#                     {
+#                         'title': "Чем заняться в карантин?",
+#                         'hide': True
+#                     }
+#                 ]
+
+
+# def inforussia(self, res, req):
+#     user_id = req['session']['user_id']
+#     cur = self.con.cursor()
+#     sp = cur.execute("""SELECT illpeople FROM russia""").fetchall()
+#     if req['request']['nlu']['tokens'] in sp:
+#         result = cur.execute("""SELECT illpeople FROM russia WHERE
+#     territory == {0}""".format(req['request']['nlu']['tokens'])).fetchone()
+#     else:
+#         result = 'Я не расслышала. Попробуйте еще раз.'
+#     res['response']['text'] = result
+#     res['response']['card'] = {}
+#     res['response']['card']['type'] = 'BigImage'
+#     res['response']['card']['title'] = 'Заражение в России'
+#     res['response']['card']['image_id'] = images['россия']
+#     sessionStorage[user_id]['information'] = False
+#     res['response']['buttons'] = [
+#         {
+#             'title': 'Информация про субъект Российской Федерации',
+#             'hide': True
+#         },
+#         {
+#             'title': 'Информация про страны мира',
+#             'hide': True
+#         },
+#         {
+#             'title': 'Симптомы',
+#             'hide': True
+#         },
+#         {
+#             'title': 'Рекомендации',
+#             'hide': True
+#         },
+#         {
+#             'title': "Чем заняться в карантин?",
+#             'hide': True
+#         }
+#     ]
 
 
 def get_first_name(req):
