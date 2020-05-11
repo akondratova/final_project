@@ -623,474 +623,474 @@ def main():
     users63.country = "Армения"
     users63.illpeople = 3392
     session.add(users63)
-    users4 = InfoWorld()
-    users4.country = "Таиланд"
-    users4.illpeople = 3015
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Греция"
-    users5.illpeople = 2716
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Ирак"
-    users6.illpeople = 2767
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Узбекистан"
-    users7.illpeople = 2453
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Камерун"
-    users8.illpeople = 2579
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Азербайджан"
-    users9.illpeople = 2519
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Хорватия"
-    users.illpeople = 2187
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Боливия"
-    users1.illpeople = 2556
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Босния и Герцеговина"
-    users2.illpeople = 2117
+    users64 = InfoWorld()
+    users64.country = "Таиланд"
+    users64.illpeople = 3015
+    session.add(users64)
+    users65 = InfoWorld()
+    users65.country = "Греция"
+    users65.illpeople = 2716
+    session.add(users65)
+    users66 = InfoWorld()
+    users66.country = "Ирак"
+    users66.illpeople = 2767
+    session.add(users66)
+    users67 = InfoWorld()
+    users67.country = "Узбекистан"
+    users67.illpeople = 2453
+    session.add(users67)
+    users68 = InfoWorld()
+    users68.country = "Камерун"
+    users68.illpeople = 2579
+    session.add(users68)
+    users69 = InfoWorld()
+    users69.country = "Азербайджан"
+    users69.illpeople = 2519
+    session.add(users69)
+    users70 = InfoWorld()
+    users70.country = "Хорватия"
+    users70.illpeople = 2187
+    session.add(users70)
+    users71 = InfoWorld()
+    users71.country = "Боливия"
+    users71.illpeople = 2556
+    session.add(users71)
+    users72 = InfoWorld()
+    users72.country = "Босния и Герцеговина"
+    users72.illpeople = 2117
+    session.add(users72)
+    users73 = InfoWorld()
+    users73.country = "Гвинея"
+    users73.illpeople = 2146
+    session.add(users73)
+    users74 = InfoWorld()
+    users74.country = "Болгария"
+    users74.illpeople = 1981
+    session.add(users74)
+    users75 = InfoWorld()
+    users75.country = "Исландия"
+    users75.illpeople = 1801
+    session.add(users75)
+    users76 = InfoWorld()
+    users76.country = "Куба"
+    users76.illpeople = 1766
+    session.add(users76)
+    users77 = InfoWorld()
+    users77.country = "Эстония"
+    users77.illpeople = 1741
+    session.add(users77)
+    users78 = InfoWorld()
+    users78.country = "Гондурас"
+    users78.illpeople = 1972
+    session.add(users78)
+    users79 = InfoWorld()
+    users79.country = "Северная Македония"
+    users79.illpeople = 1664
+    session.add(users79)
+    users80 = InfoWorld()
+    users80.country = "Кот-д’Ивуар"
+    users80.illpeople = 1700
+    session.add(users80)
+    users81 = InfoWorld()
+    users81.country = "Сенегал"
+    users81.illpeople = 1709
+    session.add(users81)
+    users82 = InfoWorld()
+    users82.country = "Новая Зеландия"
+    users82.illpeople = 1497
+    session.add(users82)
+    users83 = InfoWorld()
+    users83.country = "Словакия"
+    users83.illpeople = 1457
+    session.add(users83)
+    users84 = InfoWorld()
+    users84.country = "Словения"
+    users84.illpeople = 1460
+    session.add(users84)
+    users85 = InfoWorld()
+    users85.country = "Литва"
+    users85.illpeople = 1485
+    session.add(users85)
+    users86 = InfoWorld()
+    users86.country = "Джибути"
+    users86.illpeople = 1210
+    session.add(users86)
+    users87 = InfoWorld()
+    users87.country = "Тунис"
+    users87.illpeople = 1032
+    session.add(users87)
+    users88 = InfoWorld()
+    users88.country = "Судан"
+    users88.illpeople = 1365
+    session.add(users88)
+    users89 = InfoWorld()
+    users89.country = "Латвия"
+    users89.illpeople = 946
+    session.add(users89)
+    users90 = InfoWorld()
+    users90.country = "Сомали"
+    users90.illpeople = 1054
+    session.add(users90)
+    users91 = InfoWorld()
+    users91.country = "Киргизия"
+    users91.illpeople = 1016
+    session.add(users91)
+    users92 = InfoWorld()
+    users92.country = "Демократическая Республика Конго"
+    users92.illpeople = 991
+    session.add(users92)
+    users93 = InfoWorld()
+    users93.country = "Кипр"
+    users93.illpeople = 898
+    session.add(users93)
+    users94 = InfoWorld()
+    users94.country = "Албания"
+    users94.illpeople = 872
+    session.add(users94)
+    users95 = InfoWorld()
+    users95.country = "Гватемала"
+    users95.illpeople = 1052
+    session.add(users95)
+    users96 = InfoWorld()
+    users96.country = "Шри-Ланка"
+    users96.illpeople = 863
+    session.add(users96)
+    users97 = InfoWorld()
+    users97.country = "Ливан"
+    users97.illpeople = 845
+    session.add(users97)
+    users98 = InfoWorld()
+    users98.country = "Нигер"
+    users98.illpeople = 821
+    session.add(users98)
+    users99 = InfoWorld()
+    users99.country = "Коста-Рика"
+    users99.illpeople = 792
+    session.add(users99)
+    users100 = InfoWorld()
+    users100.country = "Андорра"
+    users100.illpeople = 755
+    session.add(users100)
+    users101 = InfoWorld()
+    users101.country = "Сальвадор"
+    users101.illpeople = 958
+    session.add(users101)
+    users102 = InfoWorld()
+    users102.country = "Буркина-Фасо"
+    users102.illpeople = 751
+    session.add(users102)
+    users103 = InfoWorld()
+    users103.country = "Уругвай"
+    users103.illpeople = 707
+    session.add(users103)
+    users104 = InfoWorld()
+    users104.country = "Мали"
+    users104.illpeople = 704
+    session.add(users104)
+    users105 = InfoWorld()
+    users105.country = "Мальдивы"
+    users105.illpeople = 835
+    session.add(users105)
+    users106 = InfoWorld()
+    users106.country = "Грузия"
+    users106.illpeople = 638
+    session.add(users106)
+    users107 = InfoWorld()
+    users107.country = "Сан-Марино"
+    users107.illpeople = 628
+    session.add(users107)
+    users108 = InfoWorld()
+    users108.country = "Кения"
+    users108.illpeople = 672
+    session.add(users108)
+    users109 = InfoWorld()
+    users109.country = "Гвинея-Бисау"
+    users109.illpeople = 726
+    session.add(users109)
+    users110 = InfoWorld()
+    users110.country = "Габон"
+    users110.illpeople = 661
+    session.add(users110)
+    users111 = InfoWorld()
+    users111.country = "Иордания"
+    users111.illpeople = 540
+    session.add(users111)
+    users112 = InfoWorld()
+    users112.country = "Ямайка"
+    users112.illpeople = 502
+    session.add(users112)
+    users113 = InfoWorld()
+    users113.country = "Мальта"
+    users113.illpeople = 503
+    session.add(users113)
+    users114 = InfoWorld()
+    users114.country = "Танзания"
+    users114.illpeople = 509
+    session.add(users114)
+    users115 = InfoWorld()
+    users115.country = "Парагвай"
+    users115.illpeople = 713
+    session.add(users115)
+    users116 = InfoWorld()
+    users116.country = "Таджикистан"
+    users116.illpeople = 612
+    session.add(users116)
+    users117 = InfoWorld()
+    users117.country = "Экваториальная Гвинея"
+    users117.illpeople = 439
+    session.add(users117)
+    users118 = InfoWorld()
+    users118.country = "Венесуэла"
+    users118.illpeople = 414
+    session.add(users118)
+    users119 = InfoWorld()
+    users119.country = "Маврикий"
+    users119.illpeople = 332
+    session.add(users119)
+    users120 = InfoWorld()
+    users120.country = "Черногория"
+    users120.illpeople = 324
+    session.add(users120)
+    users121 = InfoWorld()
+    users121.country = "Вьетнам"
+    users121.illpeople = 288
+    session.add(users121)
+    users122 = InfoWorld()
+    users122.country = "Республика Конго"
+    users122.illpeople = 274
     session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Гвинея"
-    users3.illpeople = 2146
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Болгария"
-    users4.illpeople = 1981
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Исландия"
-    users5.illpeople = 1801
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Куба"
-    users6.illpeople = 1766
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Эстония"
-    users7.illpeople = 1741
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Гондурас"
-    users8.illpeople = 1972
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Северная Македония"
-    users9.illpeople = 1664
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Кот-д’Ивуар"
-    users.illpeople = 1700
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Сенегал"
-    users1.illpeople = 1709
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Новая Зеландия"
-    users2.illpeople = 1497
+    users123 = InfoWorld()
+    users123.country = "Руанда"
+    users123.illpeople = 284
+    session.add(users123)
+    users124 = InfoWorld()
+    users124.country = "Чад"
+    users124.illpeople = 322
+    session.add(users124)
+    users125 = InfoWorld()
+    users125.country = "Сьерра-Леоне"
+    users125.illpeople = 307
+    session.add(users125)
+    users126 = InfoWorld()
+    users126.country = "Кабо-Верде"
+    users126.illpeople = 246
+    session.add(users126)
+    users127 = InfoWorld()
+    users127.country = "Мадагаскар"
+    users127.illpeople = 193
+    session.add(users127)
+    users128 = InfoWorld()
+    users128.country = "Эфиопия"
+    users128.illpeople = 250
+    session.add(users128)
+    users129 = InfoWorld()
+    users129.country = "Либерия"
+    users129.illpeople = 199
+    session.add(users129)
+    users130 = InfoWorld()
+    users130.country = "Сан-Томе и Принсипи"
+    users130.illpeople = 208
+    session.add(users130)
+    users131 = InfoWorld()
+    users131.country = "Мьянма"
+    users131.illpeople = 180
+    session.add(users131)
+    users132 = InfoWorld()
+    users132.country = "Замбия"
+    users132.illpeople = 267
     session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Словакия"
-    users3.illpeople = 1457
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Словения"
-    users4.illpeople = 1460
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Литва"
-    users5.illpeople = 1485
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Джибути"
-    users6.illpeople = 1210
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Тунис"
-    users7.illpeople = 1032
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Судан"
-    users8.illpeople = 1365
+    users133 = InfoWorld()
+    users133.country = "Эсватини"
+    users133.illpeople = 172
+    session.add(users133)
+    users134 = InfoWorld()
+    users134.country = "Бруней"
+    users134.illpeople = 141
+    session.add(users134)
+    users135 = InfoWorld()
+    users135.country = "Бенин"
+    users135.illpeople = 319
+    session.add(users135)
+    users136 = InfoWorld()
+    users136.country = "Того"
+    users136.illpeople = 174
+    session.add(users136)
+    users137 = InfoWorld()
+    users137.country = "Гаити"
+    users137.illpeople = 182
+    session.add(users137)
+    users138 = InfoWorld()
+    users138.country = "Камбоджа"
+    users138.illpeople = 122
     session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Латвия"
-    users9.illpeople = 946
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Сомали"
-    users.illpeople = 1054
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Киргизия"
-    users1.illpeople = 1016
+    users139 = InfoWorld()
+    users139.country = "Тринидад и Тобаго"
+    users139.illpeople = 116
+    session.add(users139)
+    users140 = InfoWorld()
+    users140.country = "Непал"
+    users140.illpeople = 121
+    session.add(users140)
+    users141 = InfoWorld()
+    users141.country = "Уганда"
+    users141.illpeople = 121
+    session.add(users141)
+    users142 = InfoWorld()
+    users142.country = "Монако"
+    users142.illpeople = 96
+    session.add(users142)
+    users143 = InfoWorld()
+    users143.country = "Центральноафриканская республика"
+    users143.illpeople = 143
+    session.add(users143)
+    users144 = InfoWorld()
+    users144.country = "Гайана"
+    users144.illpeople = 104
+    session.add(users144)
+    users145 = InfoWorld()
+    users145.country = "Багамские острова"
+    users145.illpeople = 92
+    session.add(users145)
+    users146 = InfoWorld()
+    users146.country = "Барбадос"
+    users146.illpeople = 84
+    session.add(users146)
+    users147 = InfoWorld()
+    users147.country = "Лихтенштейн"
+    users147.illpeople = 82
+    session.add(users147)
+    users148 = InfoWorld()
+    users148.country = "Мозамбик"
+    users148.illpeople = 91
+    session.add(users148)
+    users149 = InfoWorld()
+    users149.country = "Южный Судан"
+    users149.illpeople = 156
+    session.add(users149)
+    users150 = InfoWorld()
+    users150.country = "Ливия"
+    users150.illpeople = 64
+    session.add(users150)
+    users151 = InfoWorld()
+    users151.country = "Сирия"
+    users151.illpeople = 47
+    session.add(users151)
+    users152 = InfoWorld()
+    users152.country = "Малави"
+    users152.illpeople = 56
+    session.add(users152)
+    users153 = InfoWorld()
+    users153.country = "Монголия"
+    users153.illpeople = 42
+    session.add(users153)
+    users154 = InfoWorld()
+    users154.country = "Эритрея"
+    users154.illpeople = 39
+    session.add(users154)
+    users155 = InfoWorld()
+    users155.country = "Ангола"
+    users155.illpeople = 45
+    session.add(users155)
+    users156 = InfoWorld()
+    users156.country = "Зимбабве"
+    users156.illpeople = 36
+    session.add(users156)
+    users157 = InfoWorld()
+    users157.country = "Антигуа и Барбуда"
+    users157.illpeople = 25
+    session.add(users157)
+    users158 = InfoWorld()
+    users158.country = "Йемен"
+    users158.illpeople = 51
+    session.add(users158)
+    users159 = InfoWorld()
+    users159.country = "Восточный Тимор"
+    users159.illpeople = 24
+    session.add(users159)
+    users160 = InfoWorld()
+    users160.country = "Ботсвана"
+    users160.illpeople = 23
+    session.add(users160)
+    users161 = InfoWorld()
+    users161.country = "Гренада"
+    users161.illpeople = 21
     session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Демократическая Республика Конго"
-    users2.illpeople = 991
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Кипр"
-    users3.illpeople = 898
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Албания"
-    users4.illpeople = 872
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Гватемала"
-    users5.illpeople = 1052
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Шри-Ланка"
-    users6.illpeople = 863
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Ливан"
-    users7.illpeople = 845
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Нигер"
-    users8.illpeople = 821
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Коста-Рика"
-    users9.illpeople = 792
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Андорра"
-    users.illpeople = 755
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Сальвадор"
-    users1.illpeople = 958
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Буркина-Фасо"
-    users2.illpeople = 751
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Уругвай"
-    users3.illpeople = 707
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Мали"
-    users4.illpeople = 704
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Мальдивы"
-    users5.illpeople = 835
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Грузия"
-    users6.illpeople = 638
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Сан-Марино"
-    users7.illpeople = 628
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Кения"
-    users8.illpeople = 672
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Гвинея-Бисау"
-    users9.illpeople = 726
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Габон"
-    users.illpeople = 661
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Иордания"
-    users1.illpeople = 540
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Ямайка"
-    users2.illpeople = 502
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Мальта"
-    users3.illpeople = 503
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Танзания"
-    users4.illpeople = 509
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Парагвай"
-    users5.illpeople = 713
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Таджикистан"
-    users6.illpeople = 612
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Экваториальная Гвинея"
-    users7.illpeople = 439
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Венесуэла"
-    users8.illpeople = 414
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Маврикий"
-    users9.illpeople = 332
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Черногория"
-    users.illpeople = 324
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Вьетнам"
-    users1.illpeople = 288
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Республика Конго"
-    users2.illpeople = 274
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Руанда"
-    users3.illpeople = 284
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Чад"
-    users4.illpeople = 322
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Сьерра-Леоне"
-    users5.illpeople = 307
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Кабо-Верде"
-    users6.illpeople = 246
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Мадагаскар"
-    users7.illpeople = 193
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Эфиопия"
-    users8.illpeople = 250
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Либерия"
-    users9.illpeople = 199
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Сан-Томе и Принсипи"
-    users.illpeople = 208
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Мьянма"
-    users1.illpeople = 180
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Замбия"
-    users2.illpeople = 267
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Эсватини"
-    users3.illpeople = 172
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Бруней"
-    users4.illpeople = 141
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Бенин"
-    users5.illpeople = 319
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Того"
-    users6.illpeople = 174
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Гаити"
-    users7.illpeople = 182
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Камбоджа"
-    users8.illpeople = 122
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Тринидад и Тобаго"
-    users9.illpeople = 116
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Непал"
-    users.illpeople = 121
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Уганда"
-    users1.illpeople = 121
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Монако"
-    users2.illpeople = 96
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Центральноафриканская республика"
-    users3.illpeople = 143
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Гайана"
-    users4.illpeople = 104
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Багамские острова"
-    users5.illpeople = 92
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Барбадос"
-    users6.illpeople = 84
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Лихтенштейн"
-    users7.illpeople = 82
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Мозамбик"
-    users8.illpeople = 91
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Южный Судан"
-    users9.illpeople = 156
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Ливия"
-    users.illpeople = 64
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Сирия"
-    users1.illpeople = 47
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Малави"
-    users2.illpeople = 56
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Монголия"
-    users3.illpeople = 42
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Эритрея"
-    users4.illpeople = 39
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Ангола"
-    users5.illpeople = 45
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Зимбабве"
-    users6.illpeople = 36
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Антигуа и Барбуда"
-    users7.illpeople = 25
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Йемен"
-    users8.illpeople = 51
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Восточный Тимор"
-    users9.illpeople = 24
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Ботсвана"
-    users.illpeople = 23
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Гренада"
-    users1.illpeople = 21
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Лаос"
-    users2.illpeople = 19
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Белиз"
-    users3.illpeople = 18
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Гамбия"
-    users4.illpeople = 20
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Сент-Люсия"
-    users5.illpeople = 18
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Фиджи"
-    users6.illpeople = 18
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Сент-Винсент и Гренадины"
-    users7.illpeople = 17
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Доминика"
-    users8.illpeople = 16
-    session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Намибия"
-    users9.illpeople = 16
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Никарагуа"
-    users.illpeople = 16
-    session.add(users)
-    users1 = InfoWorld()
-    users1.country = "Бурунди"
-    users1.illpeople = 15
-    session.add(users1)
-    users2 = InfoWorld()
-    users2.country = "Сент-Китс и Невис"
-    users2.illpeople = 15
-    session.add(users2)
-    users3 = InfoWorld()
-    users3.country = "Ватикан"
+    users162 = InfoWorld()
+    users162.country = "Лаос"
+    users162.illpeople = 19
+    session.add(users162)
+    users163 = InfoWorld()
+    users163.country = "Белиз"
+    users163.illpeople = 18
+    session.add(users163)
+    users164 = InfoWorld()
+    users164.country = "Гамбия"
+    users164.illpeople = 20
+    session.add(users164)
+    users165 = InfoWorld()
+    users165.country = "Сент-Люсия"
+    users165.illpeople = 18
+    session.add(users165)
+    users166 = InfoWorld()
+    users166.country = "Фиджи"
+    users166.illpeople = 18
+    session.add(users166)
+    users167 = InfoWorld()
+    users167.country = "Сент-Винсент и Гренадины"
+    users167.illpeople = 17
+    session.add(users167)
+    users168 = InfoWorld()
+    users168.country = "Доминика"
+    users168.illpeople = 16
+    session.add(users168)
+    users169 = InfoWorld()
+    users169.country = "Намибия"
+    users169.illpeople = 16
+    session.add(users169)
+    users170 = InfoWorld()
+    users170.country = "Никарагуа"
+    users170.illpeople = 16
+    session.add(users170)
+    users171 = InfoWorld()
+    users171.country = "Бурунди"
+    users171.illpeople = 15
+    session.add(users171)
+    users172 = InfoWorld()
+    users172.country = "Сент-Китс и Невис"
+    users172.illpeople = 15
+    session.add(users172)
+    users173 = InfoWorld()
+    users173.country = "Ватикан"
     users3.illpeople = 12
-    session.add(users3)
-    users4 = InfoWorld()
-    users4.country = "Сейшельские острова"
-    users4.illpeople = 11
-    session.add(users4)
-    users5 = InfoWorld()
-    users5.country = "Суринам"
-    users5.illpeople = 10
-    session.add(users5)
-    users6 = InfoWorld()
-    users6.country = "Коморские острова"
-    users6.illpeople = 11
-    session.add(users6)
-    users7 = InfoWorld()
-    users7.country = "Мавритания"
-    users7.illpeople = 8
-    session.add(users7)
-    users8 = InfoWorld()
-    users8.country = "Папуа-Новая Гвинея"
-    users8.illpeople = 8
+    session.add(users173)
+    users174 = InfoWorld()
+    users174.country = "Сейшельские острова"
+    users174.illpeople = 11
+    session.add(users174)
+    users175 = InfoWorld()
+    users175.country = "Суринам"
+    users175.illpeople = 10
+    session.add(users175)
+    users176 = InfoWorld()
+    users176.country = "Коморские острова"
+    users176.illpeople = 11
+    session.add(users176)
+    users177 = InfoWorld()
+    users177.country = "Мавритания"
+    users177.illpeople = 8
+    session.add(users177)
+    users178 = InfoWorld()
+    users178.country = "Папуа-Новая Гвинея"
+    users178.illpeople = 8
     session.add(users8)
-    users9 = InfoWorld()
-    users9.country = "Бутан"
-    users9.illpeople = 9
-    session.add(users9)
-    users = InfoWorld()
-    users.country = "Сахарская Арабская Демократическая Республика"
-    users.illpeople = 6
-    session.add(users)
+    users179 = InfoWorld()
+    users179.country = "Бутан"
+    users179.illpeople = 9
+    session.add(users179)
+    users180 = InfoWorld()
+    users180.country = "Сахарская Арабская Демократическая Республика"
+    users180.illpeople = 6
+    session.add(users180)
     session.commit()
     logging.info('Request: %r', request.json)
     response = {
